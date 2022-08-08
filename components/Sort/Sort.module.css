@@ -1,0 +1,34 @@
+.sort {
+  display: flex;
+}
+
+.sortItem svg {
+  display: none;
+}
+
+.sortItem {
+  border: none;
+  background-color: transparent;
+  text-shadow: none;
+  font: inherit;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+}
+
+.sortItem.active svg {
+  display: block;
+  margin-right: 8px;
+}
+
+.sortItem.active {
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+}
+
+.sortItem:first-of-type {
+  margin-right: 5px;
+  align-items: center;
+}

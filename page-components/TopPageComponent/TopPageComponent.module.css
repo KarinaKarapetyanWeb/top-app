@@ -1,0 +1,58 @@
+.title {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: baseline;
+  justify-items: left;
+  gap: 20px;
+}
+
+.hhTitle {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: baseline;
+  justify-items: left;
+  gap: 20px;
+}
+
+.productsWrapper {
+  margin-bottom: 20px;
+}
+
+.advantagesWrapper {
+  margin-bottom: 20px;
+}
+
+.seoText {
+  margin-bottom: 20px;
+}
+
+.seoText h1 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 35px;
+}
+
+.seoText h2 {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.seoText h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+@media (max-width: 900px) {
+  .title {
+    grid-template-columns: auto 1fr;
+    margin-bottom: 30px;
+  }
+}

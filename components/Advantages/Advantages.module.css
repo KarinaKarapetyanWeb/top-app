@@ -1,0 +1,26 @@
+.advantageWrapper {
+  display: grid;
+  grid-auto-rows: min-content;
+  gap: 10px;
+}
+
+.advantage {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 40px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  margin: 0;
+}

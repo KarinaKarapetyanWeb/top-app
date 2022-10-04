@@ -22,7 +22,7 @@ function Home({ menu, firstCategory }: HomeProps): JSX.Element {
       <Htag tag="h1">Текст</Htag>
       <Button
         appearance="primary"
-        onClick={() => console.log("hi")}
+        onClick={() => undefined}
         arrow="right"
         type="button"
       >
@@ -30,7 +30,7 @@ function Home({ menu, firstCategory }: HomeProps): JSX.Element {
       </Button>
       <Button
         appearance="ghost"
-        onClick={() => console.log("hi")}
+        onClick={() => undefined}
         arrow="right"
       >
         Кнопка

@@ -17,7 +17,7 @@ const ReviewForm = ({
   const { register, control, handleSubmit } = useForm<ReviewForm>();
 
   const onSubmit = (data: ReviewForm) => {
-    console.log(data);
+    return data;
   };
 
   return (
